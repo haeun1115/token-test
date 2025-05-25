@@ -1,0 +1,32 @@
+name: Transform Tokens on main push
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'token-test.json'
+
+jobs:
+  transform:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Run Token Transformer
+        run: |
+          npx token-transformer token-test.json ./global.json global
+          git config --global user.name "haeun1115"
+          git config --global user.email "your-email@example.com"
+          git add .
+          git commit -m '토큰 변환 자동 반영'
+          git push origin main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
