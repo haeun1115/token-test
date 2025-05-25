@@ -1,32 +1,37 @@
-name: Transform Tokens on main push
+# .github/workflows/build.yml
+
+name: Build Design Tokens
 
 on:
   push:
+    paths:
+      - 'tokens/token-test.json'
     branches:
       - main
-    paths:
-      - 'token-test.json'
 
 jobs:
-  transform:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v3
 
-      - name: Setup Node.js
+      - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 18
 
-      - name: Run Token Transformer
-        run: |
-          npx token-transformer token-test.json ./global.json global
-          git config --global user.name "haeun1115"
-          git config --global user.email "your-email@example.com"
-          git add .
-          git commit -m '토큰 변환 자동 반영'
-          git push origin main
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Install dependencies
+        run: npm install
+
+      - name: Normalize tokens
+        run: node normalize-token.js
+
+      - name: Build design tokens
+        run: npm run build:tokens
+
+      - name: Upload CSS/SCSS result
+        uses: actions/upload-artifact@v3
+        with:
+          name: design-tokens-output
+          path: build/
