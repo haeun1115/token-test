@@ -201,7 +201,7 @@
       }
     }
   },
-  "\bcore": {
+  "value": {
     "color": {
       "common": {
         "common_100": {
@@ -1294,31 +1294,31 @@
         "value": "0",
         "type": "borderRadius"
       },
-      "radius_xs": {
+      "radius_xsmall": {
         "value": "4",
         "type": "borderRadius"
       },
-      "radius_sm": {
+      "radius_small": {
         "value": "6",
         "type": "borderRadius"
       },
-      "radius_md": {
+      "radius_medium": {
         "value": "8",
         "type": "borderRadius"
       },
-      "radius_lg": {
+      "radius_large": {
         "value": "12",
         "type": "borderRadius"
       },
-      "radius_xl": {
+      "radius_xlarge": {
         "value": "16",
         "type": "borderRadius"
       },
-      "radius_2xl": {
+      "radius_2xlarge": {
         "value": "20",
         "type": "borderRadius"
       },
-      "radius_3xl": {
+      "radius_3xlarge": {
         "value": "24",
         "type": "borderRadius"
       },
@@ -1406,7 +1406,7 @@
   "$metadata": {
     "tokenSetOrder": [
       "semantic",
-      "\bcore"
+      "value"
     ]
   }
 }
