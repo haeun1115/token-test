@@ -1289,105 +1289,117 @@
         "type": "typography"
       }
     },
-    "radius_none": {
-      "value": "0",
-      "type": "borderRadius"
+    "radius": {
+      "radius_none": {
+        "value": "0",
+        "type": "borderRadius"
+      },
+      "radius_xs": {
+        "value": "4",
+        "type": "borderRadius"
+      },
+      "radius_sm": {
+        "value": "6",
+        "type": "borderRadius"
+      },
+      "radius_md": {
+        "value": "8",
+        "type": "borderRadius"
+      },
+      "radius_lg": {
+        "value": "12",
+        "type": "borderRadius"
+      },
+      "radius_xl": {
+        "value": "16",
+        "type": "borderRadius"
+      },
+      "radius_2xl": {
+        "value": "20",
+        "type": "borderRadius"
+      },
+      "radius_3xl": {
+        "value": "24",
+        "type": "borderRadius"
+      },
+      "radius_full": {
+        "value": "9999",
+        "type": "borderRadius"
+      }
     },
-    "radius_xs": {
-      "value": "4",
-      "type": "borderRadius"
-    },
-    "radius_sm": {
-      "value": "6",
-      "type": "borderRadius"
-    },
-    "radius_md": {
-      "value": "8",
-      "type": "borderRadius"
-    },
-    "radius_lg": {
-      "value": "12",
-      "type": "borderRadius"
-    },
-    "radius_xl": {
-      "value": "16",
-      "type": "borderRadius"
-    },
-    "radius_2xl": {
-      "value": "20",
-      "type": "borderRadius"
-    },
-    "radius_3xl": {
-      "value": "24",
-      "type": "borderRadius"
-    },
-    "radius_full": {
-      "value": "9999",
-      "type": "borderRadius"
-    },
-    "spacing_2": {
-      "value": "2",
-      "type": "spacing"
-    },
-    "spacing_4": {
-      "value": "4",
-      "type": "spacing"
-    },
-    "spacing_6": {
-      "value": "6",
-      "type": "spacing"
-    },
-    "spacing_8": {
-      "value": "8",
-      "type": "spacing"
-    },
-    "spacing_12": {
-      "value": "12",
-      "type": "spacing"
-    },
-    "spacing_16": {
-      "value": "16",
-      "type": "spacing"
-    },
-    "spacing_20": {
-      "value": "20",
-      "type": "spacing"
-    },
-    "spacing_24": {
-      "value": "24",
-      "type": "spacing"
-    },
-    "spacing_28": {
-      "value": "28",
-      "type": "spacing"
-    },
-    "spacing_32": {
-      "value": "32",
-      "type": "spacing"
-    },
-    "spacing_40": {
-      "value": "40",
-      "type": "spacing"
-    },
-    "spacing_44": {
-      "value": "44",
-      "type": "spacing"
-    },
-    "spacing_48": {
-      "value": "48",
-      "type": "spacing"
-    },
-    "spacing_52": {
-      "value": "52",
-      "type": "spacing"
-    },
-    "spacing_56": {
-      "value": "56",
-      "type": "spacing"
-    },
-    "spacing_64": {
-      "value": "64",
-      "type": "spacing"
+    "spacing": {
+      "spacing_2": {
+        "value": "2",
+        "type": "spacing"
+      },
+      "spacing_4": {
+        "value": "4",
+        "type": "spacing"
+      },
+      "spacing_6": {
+        "value": "6",
+        "type": "spacing"
+      },
+      "spacing_8": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "spacing_12": {
+        "value": "12",
+        "type": "spacing"
+      },
+      "spacing_16": {
+        "value": "16",
+        "type": "spacing"
+      },
+      "spacing_20": {
+        "value": "20",
+        "type": "spacing"
+      },
+      "spacing_24": {
+        "value": "24",
+        "type": "spacing"
+      },
+      "spacing_28": {
+        "value": "28",
+        "type": "spacing"
+      },
+      "spacing_32": {
+        "value": "32",
+        "type": "spacing"
+      },
+      "spacing_40": {
+        "value": "40",
+        "type": "spacing"
+      },
+      "spacing_44": {
+        "value": "44",
+        "type": "spacing"
+      },
+      "spacing_48": {
+        "value": "48",
+        "type": "spacing"
+      },
+      "spacing_52": {
+        "value": "52",
+        "type": "spacing"
+      },
+      "spacing_56": {
+        "value": "56",
+        "type": "spacing"
+      },
+      "spacing_64": {
+        "value": "64",
+        "type": "spacing"
+      },
+      "spacing_30": {
+        "value": "30",
+        "type": "spacing"
+      },
+      "spacing_10": {
+        "value": "10",
+        "type": "spacing"
+      }
     }
   },
   "$themes": [],
