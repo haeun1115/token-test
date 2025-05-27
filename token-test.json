@@ -22,7 +22,7 @@
         "type": "color"
       }
     },
-    "Text": {
+    "text": {
       "text_primary": {
         "value": "{color.cool_neutral.cool_neutral_950}",
         "type": "color"
@@ -60,7 +60,7 @@
         "type": "color"
       }
     },
-    "Icon": {
+    "icon": {
       "icon_enabled": {
         "value": "{color.cool_neutral.cool_neutral_950}",
         "type": "color"
@@ -108,7 +108,7 @@
         "type": "color"
       }
     },
-    "Overlay": {
+    "overlay": {
       "overlay_50": {
         "value": "{color.alpha.alpha_black_500}",
         "type": "color"
@@ -892,110 +892,6 @@
         }
       }
     },
-    "radius": {
-      "radius_2xl": {
-        "value": "20px",
-        "type": "dimension"
-      },
-      "radius_full": {
-        "value": "9999px",
-        "type": "dimension"
-      },
-      "radius_xl": {
-        "value": "16px",
-        "type": "dimension"
-      },
-      "radius_3xl": {
-        "value": "24px",
-        "type": "dimension"
-      },
-      "radius_none": {
-        "value": "0px",
-        "type": "dimension"
-      },
-      "radius_lg": {
-        "value": "12px",
-        "type": "dimension"
-      },
-      "radius_md": {
-        "value": "8px",
-        "type": "dimension"
-      },
-      "radius_xs": {
-        "value": "4px",
-        "type": "dimension"
-      },
-      "radius_sm": {
-        "value": "6px",
-        "type": "dimension"
-      }
-    },
-    "spacing": {
-      "spacing_32": {
-        "value": "32px",
-        "type": "dimension"
-      },
-      "spacing_24": {
-        "value": "24px",
-        "type": "dimension"
-      },
-      "spacing_28": {
-        "value": "28px",
-        "type": "dimension"
-      },
-      "spacing_12": {
-        "value": "12px",
-        "type": "dimension"
-      },
-      "spacing_56": {
-        "value": "56px",
-        "type": "dimension"
-      },
-      "spacing_6": {
-        "value": "6px",
-        "type": "dimension"
-      },
-      "spacing_52": {
-        "value": "52px",
-        "type": "dimension"
-      },
-      "spacing_44": {
-        "value": "44px",
-        "type": "dimension"
-      },
-      "spacing_16": {
-        "value": "16px",
-        "type": "dimension"
-      },
-      "spacing_40": {
-        "value": "40px",
-        "type": "dimension"
-      },
-      "spacing_48": {
-        "value": "48px",
-        "type": "dimension"
-      },
-      "spacing_20": {
-        "value": "20px",
-        "type": "dimension"
-      },
-      "spacing_8": {
-        "value": "8px",
-        "type": "dimension"
-      },
-      "spacing_2": {
-        "value": "2px",
-        "type": "dimension"
-      },
-      "spacing_64": {
-        "value": "64px",
-        "type": "dimension"
-      },
-      "spacing_4": {
-        "value": "4px",
-        "type": "dimension"
-      }
-    },
     "shadow_base": {
       "value": {
         "color": "#00000008",
@@ -1392,6 +1288,106 @@
         },
         "type": "typography"
       }
+    },
+    "radius_none": {
+      "value": "0",
+      "type": "borderRadius"
+    },
+    "radius_xs": {
+      "value": "4",
+      "type": "borderRadius"
+    },
+    "radius_sm": {
+      "value": "6",
+      "type": "borderRadius"
+    },
+    "radius_md": {
+      "value": "8",
+      "type": "borderRadius"
+    },
+    "radius_lg": {
+      "value": "12",
+      "type": "borderRadius"
+    },
+    "radius_xl": {
+      "value": "16",
+      "type": "borderRadius"
+    },
+    "radius_2xl": {
+      "value": "20",
+      "type": "borderRadius"
+    },
+    "radius_3xl": {
+      "value": "24",
+      "type": "borderRadius"
+    },
+    "radius_full": {
+      "value": "9999",
+      "type": "borderRadius"
+    },
+    "spacing_2": {
+      "value": "2",
+      "type": "spacing"
+    },
+    "spacing_4": {
+      "value": "4",
+      "type": "spacing"
+    },
+    "spacing_6": {
+      "value": "6",
+      "type": "spacing"
+    },
+    "spacing_8": {
+      "value": "8",
+      "type": "spacing"
+    },
+    "spacing_12": {
+      "value": "12",
+      "type": "spacing"
+    },
+    "spacing_16": {
+      "value": "16",
+      "type": "spacing"
+    },
+    "spacing_20": {
+      "value": "20",
+      "type": "spacing"
+    },
+    "spacing_24": {
+      "value": "24",
+      "type": "spacing"
+    },
+    "spacing_28": {
+      "value": "28",
+      "type": "spacing"
+    },
+    "spacing_32": {
+      "value": "32",
+      "type": "spacing"
+    },
+    "spacing_40": {
+      "value": "40",
+      "type": "spacing"
+    },
+    "spacing_44": {
+      "value": "44",
+      "type": "spacing"
+    },
+    "spacing_48": {
+      "value": "48",
+      "type": "spacing"
+    },
+    "spacing_52": {
+      "value": "52",
+      "type": "spacing"
+    },
+    "spacing_56": {
+      "value": "56",
+      "type": "spacing"
+    },
+    "spacing_64": {
+      "value": "64",
+      "type": "spacing"
     }
   },
   "$themes": [],
